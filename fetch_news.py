@@ -13,7 +13,7 @@ def generateData():
 
     query_params = {
           "sources": listOfSources[ind1],
-          "apiKey": "API_KEY"
+          "apiKey": "API_Key",
     }
     
     main_url = "https://newsapi.org/v2/everything"
