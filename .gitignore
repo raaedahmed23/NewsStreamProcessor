@@ -1,0 +1,9 @@
+# Ignore checkpoint files
+checkpoint/
+
+# Ignore __pycache__ directory
+__pycache__/
+
+# Ignore kafka folder
+kafka_2.13-3.7.0/
+
