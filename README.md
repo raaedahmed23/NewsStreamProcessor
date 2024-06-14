@@ -1,6 +1,8 @@
 # NewsStreamProcessor
 An integrated data pipeline that fetches, processes, and visualizes real-time news data using Apache Kafka, Spark, and the ELK stack, focusing on named entity extraction and trend analysis.
 
+The project fetches news articles, preprocesses the text and writes it to a kafka topic. A spark script reads the kafka topic, extracts the named entities, counts them and writes to another kafka topic. The ELK stack reads the second kafka topic and displays the most trending topics by count using a bar graph in Kibana.
+
 0. Download Kafka in the project folder 
 
 1. Start Zookeeper and Kafka service by running the commands in different terminals:
